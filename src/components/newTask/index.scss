@@ -82,15 +82,15 @@
 
   &__renderList{
     display: flex;
-    gap: 52%;
     align-items: center;
-    padding-left: 5%;
+    padding-left: 70px;
     position: absolute;
   }
   
-  #cruz{
-    margin-left: 40px;
+  &__cruz{
+    margin-left: 180px;
   }
+  
 
   
 }

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import EditTask from '../buttonEdit/EditTask';
 import DeleteTask from '../buttonDelet/DeleteTask';
+import Cruz from '../../assets/cruz.svg'
 import './index.scss';
 
 // Componente funcional Task
@@ -118,9 +119,12 @@ const Task = () => {
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
           />
+          <div className='task__cruz'>
           <button onClick={handleAddTask}>
-            <img id="cruz" src="" alt="" />
+            <img id="cruz" src={Cruz} alt="" />
           </button>
+          </div>
+          
         </div>
       </div>
       {/* Modal para editar ou excluir tarefas */}
