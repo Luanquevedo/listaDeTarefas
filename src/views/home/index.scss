@@ -1,0 +1,29 @@
+@use '../../sass/variables' as *;
+
+
+
+.home {
+    background: $secondaryColor fixed;
+    background-size: cover; // Adicione esta linha
+        
+    &__task{
+        width: 100%;
+        height: 932px;
+ 
+        
+      
+    }
+
+ 
+
+    h1{
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        color: $primaryColorText;
+        font-family: $generalFont;
+        margin-top: 250px;
+    }
+    
+   
+}
