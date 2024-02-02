@@ -1,11 +1,12 @@
 @use '../../sass/variables' as *;
 
+
 .headermenu{
     display: flex;
     background-color: $primarycolor;
     width: 100%;
     height: 70px;
-    background-image: url(retangulo.svg);
+    background-image: url('../../assets/retangulo.svg');
     background-repeat: no-repeat;
     background-position: 225px 16px ;
 
